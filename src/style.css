@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.main-header {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.bg-red {
+    background-color: red;
+}
+.bg-yellow {
+    background-color: yellow;
+}

@@ -1,7 +1,5 @@
-import React from 'react'
-
 import ReactDOM from 'react-dom'
+import App from './App'
+import './style.css'
 
-const Element = () => <p>Hola Mundo!</p>
-
-ReactDOM.render( <Element />, document.getElementById('root'))
+ReactDOM.render( <App />, document.getElementById('root'))
