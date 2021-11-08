@@ -1,15 +1,14 @@
-import Categories from "./Categories";
-import Navbar from "./Navbar";
+import Links from './Links';
 
-const Header = ({ className, imgUser }) => {
-  return (
-    <div className="headerContainer">
-      <div className="headerContent">
-        <Navbar />
-        <Categories />
-      </div>
-    </div>
-  );
-};
+const Header = ({className}) => {
+    return(
+        <header className={className}>
+            <div>
+                <h1>Ecommerce</h1>
+            </div>
+            <Links className="bg-red" />
+        </header>
+    )
+}
 
-export default Header;
+export default Header

@@ -1,17 +1,14 @@
-
-import Header from "./Header";
-import Main from "./Main";
-import Contador from "./Contador";
+import Header from "./Header"
+import Footer from "./Footer"
 
 const App = () => {
+    return(
+        // fragment
+        <>
+            <Header className="main-header" />
+            <Footer/>
+        </>
+    )
+}
 
-  return (
-    <>
-      <Header usuario="Jero" className="header" />
-      <Main />
-      <Contador />
-    </>
-  );
-};
-
-export default App;
+export default App
