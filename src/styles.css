@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*:focus {
+    outline: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+/* Header */
+
+.btn {
+    padding: .7rem;
+    background-color: transparent;
+    border: 1px solid cornflowerblue;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
+}
+
+.headerContainer {
+    background-color: rgb(255, 238, 0);
+}
+.headerContent {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.navBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    z-index: 10;
+    padding: .5rem;
+}
+input {
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+.catContainer {
+    padding: .5rem;
+}
+.catContainer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linkText {
+    color: rgba(58, 58, 58, 0.5);
+    text-decoration: none;
+    transition: all .2s;
+}
+.linkText:hover {
+    color: rgb(19, 19, 19);
+}
+
+/* Material Icons */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
