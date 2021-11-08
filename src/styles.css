@@ -38,7 +38,7 @@ html {
     flex-direction: row;
     align-items: center;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     z-index: 10;
     padding: .5rem;
 }

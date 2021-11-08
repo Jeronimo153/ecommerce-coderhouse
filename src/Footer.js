@@ -1,10 +1,10 @@
-import Links from "./Links"
+import Link from "./Link"
 
 const Footer = () => {
     return (
         <footer>
             <p>Copyright &copy; todos los derechos reservados</p>
-            <Links className="bg-yellow"/>
+            <Link className="bg-yellow"/>
         </footer>
     )
 }

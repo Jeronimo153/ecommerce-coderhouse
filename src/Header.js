@@ -1,14 +1,14 @@
-import Links from './Links';
+import Navbar from "./Navbar";
+import Link from "./Link";
 
-const Header = ({className}) => {
-    return(
-        <header className={className}>
-            <div>
-                <h1>Ecommerce</h1>
-            </div>
-            <Links className="bg-red" />
-        </header>
-    )
-}
+const Header = ({ className }) => {
+  return (
+    <header className={className}>
+      <div className="headerContent">
+        <Navbar />
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;

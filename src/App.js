@@ -3,9 +3,8 @@ import Footer from "./Footer"
 
 const App = () => {
     return(
-        // fragment
         <>
-            <Header className="main-header" />
+            <Header className="headerContainer" />
             <Footer/>
         </>
     )

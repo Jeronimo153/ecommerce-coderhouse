@@ -1,3 +1,5 @@
+import Categories from "./Categories";
+  
 const Navbar = () => {
   return (
     <>
@@ -10,6 +12,7 @@ const Navbar = () => {
           <input type="text" />
         </div>
       </div>
+      <Categories />
     </>
   );
 };
