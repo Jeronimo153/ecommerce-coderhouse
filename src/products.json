@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "name": "Silla Moderna de madera laqueada",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque odio laboriosam harum quaerat est soluta atque fugiat molestias quod doloremque architecto, nostrum odit, rerum perspiciatis iusto placeat adipisci, dolores iure. Quisquam neque quis vel iste ipsum non recusandae omnis cum hic quibusdam veniam, at provident. Fugit necessitatibus rem omnis!",
+        "price": "750",
+        "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_988894-MLA31592253376_072019-O.webp"
+    },
+    {
+        "id": 1,
+        "name": "Banqueta Moderna de madera laqueada con tapizado de gamuza",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque odio laboriosam harum quaerat est soluta atque fugiat molestias quod doloremque architecto.",
+        "price": "760",
+        "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_878597-MLA31720777200_082019-O.webp"
+    },
+    {
+        "id": 2,
+        "name": "Silla moderna trenzada con hilo rustico",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque odio laboriosam harum quaerat est soluta atque fugiat molestias quod doloremque architecto, nostrum odit, rerum perspiciatis iusto placeat adipisci, dolores iure. Quisquam neque quis vel iste ipsum non recusandae omnis cum hic quibusdam veniam, at provident. Fugit necessitatibus rem omnis!",
+        "price": "800",
+        "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_976893-MLA45606946687_042021-O.webp"
+    },
+    {
+        "id": 4,
+        "name": "Silla chapa moderna negra",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque odio laboriosam harum quaerat est soluta atque fugiat molestias quod doloremque architecto, nostrum odit.",
+        "price": "800",
+        "imgUrl": "https://desillas.com/img/productos/IVFLWJ_40.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Silla moderna con almohadon ",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque odio laboriosam harum quaerat est soluta atque fugiat molestias quod doloremque architecto, nostrum odit, rerum perspiciatis iusto placeat adipisci, dolores iure. Quisquam neque quis vel iste ipsum non recusandae omnis cum hic quibusdam veniam, at provident. Fugit necessitatibus rem omasd. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque odio laboriosam harum quaerat est soluta atque fugiat molestias quod doloremque architecto, nostrum odit, rerum perspiciatis iusto placeat adipisci, dolores iure. Quisquam neque quis vel iste ipsum non recusandae omnis cum hic quibusdam veniam, at provident. Fugit necessitatibus rem omnis!",
+        "price": "560",
+        "imgUrl": "https://desillas.com/img/productos/OAJIEW_13.jpg"
+    }
+]

@@ -1,31 +1,26 @@
-import Link from "./Link";
+import { NavLink } from "react-router-dom";
 
 const Categories = () => {
   return (
     <>
       <div className="catContainer">
         <div className="catContent">
-          <Link
+          <NavLink
             className="linkText"
-            to="https://developers.google.com/fonts/docs/material_icons"
-            text="Material"
-          />
-          <Link
+            to="/ofertas"
+          >
+            Ofertas
+          </NavLink>
+          <NavLink
             className="linkText"
-            to="https://developers.google.com/fonts/docs/material_icons"
-            text="Material"
-          />
-          <Link
-            className="linkText"
-            to="https://developers.google.com/fonts/docs/material_icons"
-            text="Material"
-          />
-          <Link
-            className="linkText"
-            to="https://developers.google.com/fonts/docs/material_icons"
-            text={<span class="material-icons">shopping_cart</span>}
-          />
+            to="/nosotros"
+          >
+            Sobre Nosotros
+          </NavLink>
         </div>
+      </div>
+      <div className="menuContainer">
+        <div className="menuContent"></div>
       </div>
     </>
   );

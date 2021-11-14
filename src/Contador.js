@@ -1,26 +1,31 @@
-import { useState, useEffect  } from "react";
+import { useState, useEffect } from "react";
 
 const Contador = () => {
-  const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(1);
 
   const sumarContador = () => {
     setContador(contador + 1);
   };
   const restarContador = () => {
-    setContador(contador - 1);
+    if (contador > 1) {
+      setContador(contador - 1);
+    }
   };
 
   useEffect(() => {
-    console.log('asd')
-  },[])
+    console.log("efecto del Contador");
+  }, [contador]);
 
   return (
-    <div className="p-auto">
-      <button onClick={sumarContador} className="btn">
-        Aumentar contador
+    <div className="counterContainer">
+      <p className="counterLabel">Cantidad </p>
+      <button onClick={restarContador} className="btnCounter">
+        <span class="material-icons md-18">remove</span>
       </button>
-      <button onClick={restarContador} className="btn">Restar contador</button>
-      <span className="p-auto">{contador}</span>
+      <span className="counter">{contador}</span>
+      <button onClick={sumarContador} className="btnCounter">
+        <span class="material-icons md-18">add</span>
+      </button>
     </div>
   );
 };

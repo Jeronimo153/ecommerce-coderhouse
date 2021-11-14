@@ -1,15 +1,15 @@
 import Categories from "./Categories";
-  
+
 const Navbar = () => {
   return (
     <>
       <div className="navBar">
         <div className="logo">
-          <span class="material-icons md-36">store</span>
+          <span className="material-icons md-36">store</span>
           <img src="" alt="" />
         </div>
         <div className="searchBar-container">
-          <input type="text" />
+          <input type="text" placeholder="Buscar productos o categorías..." />
         </div>
       </div>
       <Categories />

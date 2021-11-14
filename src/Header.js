@@ -1,5 +1,4 @@
 import Navbar from "./Navbar";
-import Link from "./Link";
 
 const Header = ({ className }) => {
   return (
